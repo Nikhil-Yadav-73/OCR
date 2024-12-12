@@ -41,4 +41,4 @@ if __name__ == "__main__":
         text = extract_text_from_image(cropped_plate)
         print(f"Detected Number Plate: {text}")
     else:
-        print("Number plate could not be detected.")
+        print("Number plate nahi samajh paye.")
