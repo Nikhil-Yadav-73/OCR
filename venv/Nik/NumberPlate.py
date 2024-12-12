@@ -34,7 +34,7 @@ def extract_text_from_image(image):
     return text.strip()
 
 if __name__ == "__main__":
-    image_path = './np2.png'
+    image_path = r"C:\Users\Nikhil\Desktop\OCR\venv\Nik\np2.png"
     cropped_plate = preprocess_image(image_path)
     
     if cropped_plate is not None:
