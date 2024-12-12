@@ -35,6 +35,7 @@ def extract_text_from_image(image):
 
 if __name__ == "__main__":
     image_path = r"C:\Users\Nikhil\Desktop\OCR\venv\Nik\np2.png"
+    # i guess because of pytesserect engine
     cropped_plate = preprocess_image(image_path)
     
     if cropped_plate is not None:
